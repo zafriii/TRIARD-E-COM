@@ -1,0 +1,382 @@
+ /* @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&family=Poppins:ital,wght@0,100;0,200;0,300;1,100&display=swap');
+
+.nav-logo img{
+    width: 50%;
+    border-radius: 20px;
+}
+.nav-logo .logo {
+    text-decoration: none;
+    color: black;
+    font-size: 1.6rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    color: rgb(107, 107, 187);
+}
+
+
+.header{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    background-color: rgb(239, 248, 248);
+    box-shadow:   rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+
+
+.nav-links{
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.navbar-link{
+    color: black;
+    text-decoration: none;
+    padding-left:10px ;
+    margin-right: 20px;
+    font-size: 1rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.navbar-link:hover{
+    color: rgb(107, 107, 187);
+}
+
+.navbar-lists .active{
+    color: rgb(107, 107, 187);
+}
+
+
+.cart-trolley--link {
+    position: relative;
+}
+.cart-trolley {
+      position: relative;
+      font-size: 2.2rem;
+}
+
+.cart-total--item {
+      width: 1.5rem;
+      height: 1.5rem;
+      position: absolute;
+      background-color: rgb(107, 107, 187);
+      color: white;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      top: -50%;
+      left: 70%;
+      
+}
+
+.mobile-navbar-btn {
+    display: none;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+.close-outline {
+    display: none;
+}
+
+.header button{
+    background-color: rgb(98 84 243);
+    border-radius: 5px;
+    color: rgb(255 255 255);
+    padding: 10px 25px;
+    border: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.username{
+    font-family: 'Oswald', sans-serif;
+}
+
+@media (max-width:600px) {
+
+   
+    
+    .mobile-navbar-btn {
+        display: inline-block;
+         z-index: 9999;
+        border: 2px solid black; 
+        
+    }
+
+     .mobile-nav-icon {
+          font-size: 1.5rem;
+          font-weight: 700;
+          color: black;
+          border: 2px solid black;
+          z-index: 9999;
+
+        }
+
+     .active .mobile-nav-icon {
+            display: none;
+            font-size: 20px;
+            position: absolute;
+            top: 30%;
+            right: 20%;
+            color: black;
+            border-radius: 50%;
+           
+          }
+
+    .active .close-outline {
+            display: inline-block;
+          }
+
+    .logo{
+            display: inline-block;
+        }   
+
+    .active .logo {
+            display: none;
+          }      
+
+    .navbar-lists  {
+            width: 15vw;
+            height: 100vh;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            visibility: hidden;
+            opacity: 0;      
+    }
+
+    .active .navbar-lists {
+        width: 440px;
+        visibility: visible;
+        opacity: 1;
+        transform: translateX(0);
+        z-index: 999;
+        transform-origin: right;
+        transition: all 3s linear;
+        
+    
+    }
+
+    .active .navbar-lists .username{
+        font-family: 'Oswald', sans-serif;
+        margin-left: -15px;
+    }
+
+    .active .navbar-lists .header button{
+        margin-left: -20px;
+    }
+
+    .nav-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .navbar-link {
+        font-size: 1.2rem;
+       
+        }
+
+
+    .nav-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 30px;
+        padding-top: 20px;
+    }    
+
+
+    .cart-trolley--link {
+            position: relative;
+        }
+    .cart-trolley {
+              position: relative;
+              font-size: 2.5rem;
+            }
+    
+    .cart-total--item {
+              width: 1.5rem;
+              height: 1.5rem;
+              font-size: 15px;
+            }
+        
+}
+
+
+@media (max-width:480px) {
+    .active .navbar-lists {
+        width: 370px;
+    }
+}
+  */
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kaushan+Script&family=Macondo&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poor+Story&family=Protest+Riot&family=Protest+Strike&display=swap');
+
+  .navbar{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-family: "Dancing Script", cursive;
+      background-color: #D2122E;
+      /* padding: 10px; */
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      /* padding: 1rem; */
+      box-shadow: rgba(68, 68, 117, 0.25) 0px 50px 100px -20px, rgba(31, 30, 30, 0.3) 0px 30px 60px -30px, rgba(32, 77, 122, 0.35) 0px -2px 6px 0px  inset;
+      
+  }
+  
+  .nav-logo{
+      color: white;
+      font-size: 18px;
+      margin-left: 20px;
+      display: flex;
+     align-items: center;
+     justify-content: center;
+     
+  }
+
+ .nav-logo .bd{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 30px;
+    
+ }
+  
+  .nav-links a{
+      text-decoration: none;
+      margin-right: 20px;
+      font-family: "Protest Strike", sans-serif;
+      color: white;
+      font-size: 17px;
+      transition: all 0.4s ease-in-out;
+  }
+  
+  .nav-links a:hover{
+      color:  #D2122E;
+      background-color: white;
+      padding: 10px 10px;
+      border-radius: 2px;
+  }
+
+  .nav-links span:hover{
+    color: #D2122E;
+  }
+
+ 
+  
+  .nav-icon{
+      font-size: 30px;
+      
+  }
+  
+  .nav-links {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+    }
+  
+    
+  .menu-toggle {
+      display: none;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      width: 30px;
+      height: 20px;
+      cursor: pointer;
+    }
+    
+  .bar {
+      width: 100%;
+      height: 3px;
+      background-color: white;
+      transition: all 0.3s ease;
+      margin-right: 20px;
+    }
+    
+   .navbar span{
+    color: white;
+ 
+   }
+
+   .cart-trolley{
+    font-size: 30px;
+   }
+
+
+   .nav-btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+   
+   .auth-btns{
+    background-color: white;
+    border: 1px solid white;
+    padding: 10px 40px;
+    color: #D2122E;
+    font-weight: 800;
+    margin-right: 20px;
+    font-family:  'Poppins', sans-serif;
+    cursor: pointer;
+   }
+
+  .nav-btns .username {
+    color: white;
+    font-family:  'Poppins', sans-serif;
+    margin-right: 10px;
+   }
+    
+  @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 92%;
+        background-color: #D2122E;
+        color: white;
+        padding: 1rem;
+        border-bottom: 1px solid #ddd;
+        transition: all 2s;
+      }
+    
+      .nav-links.open {
+        display: flex;
+      }
+    
+      .nav-links a {
+        margin-bottom: 1rem;
+      }
+    
+      .menu-toggle {
+        display: flex;
+      }
+    }
+     

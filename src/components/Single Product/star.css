@@ -1,0 +1,21 @@
+.star-style{
+    display: flex;
+    gap: 0.2rem;
+    align-items: center;
+    justify-content: flex-start;
+    color: orange;
+}
+
+.star-style .star-icon {
+    font-size: 2rem;
+    color: orange;
+  }
+
+.star-style .empty-icon {
+    font-size: 2.4rem;
+    color: orange;
+}
+
+.star-style p{
+    color: #D2122E;
+}

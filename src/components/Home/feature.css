@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&family=Poppins:ital,wght@0,100;0,200;0,300;1,100&display=swap');
+
+.loading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #D2122E;
+}
+
+
+.section{
+    padding: 9rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card a{
+  text-decoration: none;
+}
+
+.feature-container {
+   
+    max-width: 120rem;
+ }
+
+ figure {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s linear;
+ }
+
+
+.card:hover {
+      /* width: 100%; */
+      /* background-color: rgba(0, 0, 0, 0.5); */
+      /* background-color: rgb(92, 84, 84); */
+      transition: all 0.2s linear;
+      cursor: pointer;
+      border: 4px solid #FBCEB1;
+}
+
+.pic-container img {
+    max-height: 200px;
+    max-width: 250px;
+    margin-top: 1.5rem;
+    height: 20rem;
+    transition: all 0.2s linear;
+  }
+
+.card .caption {
+    position: absolute;
+    top: 15%;
+    right: 10%;
+    text-transform: uppercase;
+    padding: 0.8rem 2rem;
+    font-size: 12px;
+    font-weight: 900;
+    border-radius: 2rem;
+    color: #D2122E;
+    background-color: white;
+    font-family:  'Poppins', sans-serif;
+  }
+
+  .intro-data , .common-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    color: #D2122E;
+  }
+
+  .common-heading{
+    font-size: 30px;
+    color: #D2122E;
+    text-decoration:5px solid #D2122E underline;
+  }
+
+.card {
+    
+    /* background-color: rgb(45, 48, 48); */
+    background-color: #e6f4ff;
+    background-color: #D2122E;
+    border: 1px solid rgb(216, 200, 200);  
+    border-radius: 1rem;
+    margin-left: 40px;
+    margin-top: 30px;
+    
+}
+
+.card-data {
+      padding: 0 2rem;
+     
+}
+
+.card-data-text {
+      margin: 2rem 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+     
+}
+
+.card-data h3 {
+    text-decoration: none;
+    color: #D2122E;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.card-data p {
+        text-decoration: none;
+        color: #D2122E;
+        color: white;
+        font-family: 'Oswald', sans-serif;
+}
+
+.add-btns button{
+  transition: all 0.5s;
+  color: #D2122E;
+  background-color: white;
+  border: 1px solid #D2122E;
+  width: 250px;
+  padding: 10px 40px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  font-family:  'Poppins', sans-serif;
+  cursor: pointer;
+  
+}
+
+
+.add-btns button:hover{
+  transform: scale(1.1);
+  opacity: 0.8;
+   
+}
+    
+.pic-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+
+/* @media (max-width:900px) {
+
+  .pic-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-left: -30px;
+  } 
+}  */
+
+
+@media (max-width:1200px) {
+
+  .pic-container{
+    margin-left:-40px ;
+  }
+
+  .pic-container img {
+    max-height: 200px;
+    max-width: 250px;
+    margin-top: 1.5rem;
+    height: 20rem;
+    transition: all 0.2s linear;
+  }
+
+  .card{
+    width: 85%;
+    margin-right: -50px;
+  }
+
+  .add-btns button{
+    
+    width: 220px;
+    margin-left: -2px;
+    font-family:  'Poppins', sans-serif;
+    cursor: pointer;
+    
+  }
+
+} 
+
+
+@media (max-width:950px) {
+
+  .pic-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: -100px;
+} 
+
+.pic-container img {
+  max-height: 200px;
+  max-width: 250px;
+  margin-top: 1.5rem;
+  height: 20rem;
+  transition: all 0.2s linear;
+}
+
+.card{
+  width: 100%;
+  margin-right: -50px;
+}
+
+.add-btns button{  
+  width: 250px; 
+  margin-left: 10px;
+  
+}
+} 
+
+@media (max-width:600px) {
+
+    .pic-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: -80px;
+    } 
+
+    .pic-container img {
+      max-height: 200px;
+      max-width: 250px;
+      margin-top: 1.5rem;
+      height: 20rem;
+      transition: all 0.2s linear;
+    }
+
+    .card{
+      width: 100%;
+    }
+
+    .add-btns button{  
+      width: 250px; 
+      margin-left: 10px;
+      
+    }
+} 
+

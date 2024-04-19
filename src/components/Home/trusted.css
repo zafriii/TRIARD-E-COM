@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&family=Poppins:ital,wght@0,100;0,200;0,300;1,100&display=swap');
+
+.trusted-container{
+    margin-top: 200px;
+    width: 100%;
+    /* background-color: rgb(239, 248, 248); */
+    background-color: #F9F6EE;
+    
+   
+}
+
+.trusted-container h3{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    color: #D2122E;
+    padding-top: 20px;
+}
+
+.brand-section-slider{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.brand-section-slider img{
+        width: 100px;
+        transition: all 0.4s ease-in-out;
+}
+
+.brand-section-slider img:hover{
+    background-color: #D2122E;
+}
+
+@media (max-width:600px) {
+    .brand-section-slider{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+

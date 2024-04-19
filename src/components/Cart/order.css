@@ -1,0 +1,7 @@
+.order h2, h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    color: #D2122E;
+}

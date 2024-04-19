@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&family=Poppins:ital,wght@0,100;0,200;0,300;1,100&display=swap');
+
+.disc-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.discount{
+    margin-top: 20px;
+    height: 400px;
+    width: 70%;
+    background-color: #AA0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.disc-box .disc-title {
+    color: #D2122E;
+    text-decoration:5px solid #D2122E underline;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.disc-text h4{
+   color: #D2122E;
+   color: white;
+   font-size: 30px;
+}
+
+.disc-text span{
+    background-color:#D2122E ;
+    background-color: white;
+    color: #D2122E;
+    padding: 10px 10px;
+    font-family:  'Poppins', sans-serif;
+}
+
+.dis-img img{
+    height: 400px;
+   
+}
+
+.price span{
+    text-decoration: line-through;
+    background-color:transparent ;
+    color: #D2122E;
+    color: white;
+}
+
+@media (max-width:900px) {
+
+    
+    .discount{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 700px;
+    }
+}

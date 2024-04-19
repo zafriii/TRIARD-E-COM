@@ -1,0 +1,274 @@
+.new{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #D2122E;
+  margin-top: 100px; 
+  font-size: 30px;
+  text-decoration: 5px #D2122E underline;
+}
+
+.newarr{
+  background-color: #fff;
+  border-radius: 0% 0% 70% 0%;
+  color: #D2122E;
+  margin-top: -400px;
+  margin-left: -1px;
+  padding: 10px;
+  font-weight: 800;
+}
+
+.bell{
+  color: #D2122E;
+}
+
+.popular{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+   
+}
+
+.popular-container{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin-top: 50px;
+    margin-bottom: 20px;
+    /* background-image: url("images/paralax.png");
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+    background-color:#F9F6EE ;
+    border: 1px solid rgb(223, 211, 211);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 50%;
+    
+
+       
+}
+
+  
+.popular-image-container img {
+    width: 100%;  
+    height: 350px; 
+    object-fit: cover;
+    transition: opacity 0.5s ease;
+    margin-top: 20px;
+  }
+  
+.popular-container h2{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
+.popular-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+.popular-card-container {
+    
+    transition: all 0.5s ease;
+    display: none;
+    transition: opacity 0.5s ease; 
+   
+    
+   
+  }
+  
+.slide.active {
+    display: block;
+  }
+
+   
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    font-size: 24px;
+    background: transparent;
+    border: none;
+    background-color: #fff;
+    color: #D2122E;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+   
+  }
+  
+.prev {
+    left: 0;   
+  }
+  
+.next {
+    right: 0;   
+  } 
+
+  .prev:hover,
+  .next:hover {
+    opacity: 0.8;
+    transform: scale(1.2);
+    background-color: #c92039;
+    color: #F9F6EE;
+  }
+   
+
+  .fade 
+  {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade 
+  {
+    from {opacity: .8} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade
+   {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  .typing-text {
+    position: relative;
+  }
+  
+  .typing-text::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+    background-color: black; 
+    animation: typing 2s steps(20, end);
+    overflow: hidden;
+    
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  .typing-text {
+    width: 17ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    margin-left: 50px;
+    /* background-color:rgb(155, 142, 68) ; */
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+
+/* .popular-container {
+  background: linear-gradient(45deg, #FF5733, #FF0000, #8B0000, #FF5733);
+  background-size: 300% 300%;
+  animation: red-color 12s ease-in-out infinite;
+}
+
+@keyframes red-color {
+  0% {
+      background-position: 0 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0 50%;
+  }
+} */
+
+.popular-container {
+  background: linear-gradient(45deg, #D2122E, #E32636, #BA0021, #C6011F, #960018,#8B0000, #FF0000 );
+  background-size: 300% 300%;
+  animation: red-color 12s ease-in-out infinite;
+}
+
+@keyframes red-color {
+  0% {
+      background-position: 0 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0 50%;
+  }
+}
+
+@media(max-width: 1100px) {
+  .popular-container{
+    width: 80%;
+  }
+
+  .popular-container{
+    width: 100%;
+  }
+  
+  
+}
+
+
+
+@media(max-width: 950px) {
+  .popular-container{
+    width: 100%;
+  }
+
+  .popular-container{
+    width: 100%;
+  }
+
+  .newarr{
+    margin-left: -1px;
+  }
+  
+  
+}
+
+@media(max-width: 430px) {
+
+.popular-image-container img{
+  max-height: 300px;
+  /* width: 300px; */
+}
+
+.newarr{
+ display: none;
+}
+
+}
+

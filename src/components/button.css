@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&family=Poppins:ital,wght@0,100;0,200;0,300;1,100&display=swap');
+
+.primary-button button{
+    text-decoration: none;
+    max-width: auto;
+    background-color: rgb(98 84 243);
+    border-radius: 5px;
+    color: rgb(255 255 255);
+    padding: 10px 25px;
+    border: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+  }

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&family=Poppins:ital,wght@0,100;0,200;0,300;1,100&display=swap');
+
+.page_loading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #D2122E;
+}
+
+.single-heading h1{
+    font-family: 'Oswald', sans-serif;
+    color: #D2122E;
+    margin-left: 30px;
+}
+
+/* .single-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.single-contents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    font-family: 'Oswald', sans-serif;
+    font-family:  'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.product-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #D2122E;
+       
+}
+
+ 
+
+.str{
+    color: #D2122E;
+}  
+
+.product-data-real-price{
+    color: #D2122E;
+}
+
+.product-data-warranty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.product-warranty-data{
+    background-color:  #D2122E;
+    color: white;
+    border-radius:5px ;
+    margin-left: 20px;
+    padding: 5px 15px;
+}
+
+.product-warranty-data .warranty-icon{
+    background-color: white;
+    color: #D2122E;
+    height: 30px;
+    width: 30px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+
+@media (max-width:980px) {
+    .single-contents{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+    }
+
+   
+    .product-data-warranty {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+    }
+
+    .product-warranty-data{
+       
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+}
+
+@media (max-width:480px) {
+
+    .product-images img{
+        width: 90%;
+    }
+
+}
+
+

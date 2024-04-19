@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&family=Poppins:ital,wght@0,100;0,200;0,300;1,100&display=swap');
+
+.parallax{
+    
+    height: 400px;
+    width: 100%;
+    margin-top: 70px;
+    /* background-image: url("images/redbgl.png"); */
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;                 
+}
+
+.parallax img{
+    width: 100%;
+    height: 500px;
+}
+
+.parallax h2{
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 350%;
+    left: 30%;
+    padding: 110px;
+    color: white;
+    font-size: 40px;
+    text-decoration: 5px solid underline;
+}
+
+.paralax-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+ .paralax-btn button{
+    transition: all 0.5s;
+    background-color: white;
+    border: 1px solid #D2122E;
+    /* border-radius: 5px; */
+    padding: 10px 40px;
+    color: #D2122E;
+    font-weight: 800;
+    margin-left: -20px;
+    /* margin-top: 50px; */
+    font-family:  'Poppins', sans-serif;
+    cursor: pointer;
+    /* margin-left: 100px; */
+    position: absolute;
+    top: 390%;
+    left: 45%;
+}
+
+.paralax-btn button:hover{
+    transform: scale(1.1);
+    background-color: #C6011F;
+    color: white;
+}
+
+@media(max-width:1920px){
+    .parallax h2{
+        position: absolute;
+        top: 205%;
+        left: 35%;
+      
+    }    
+     .paralax-btn button{
+        position: absolute;
+        top: 230%;
+        left: 47%;
+    }
+}
+
+@media(max-width:1400px){
+    .parallax h2{
+        position: absolute;
+        top: 365%;
+        left: 30%;
+      
+    }    
+     .paralax-btn button{
+        position: absolute;
+        top: 410%;
+        left: 47%;
+    }
+}
+
+@media(max-width:1360px){
+    .parallax h2{
+        position: absolute;
+        top: 370%;
+        left: 25%;
+      
+    }    
+     .paralax-btn button{
+        position: absolute;
+        top: 410%;
+        left: 45%;
+    }
+}
+
+
+@media(max-width:1280px){
+    .parallax h2{
+        position: absolute;
+        top: 370%;
+        left: 25%;
+      
+    }    
+     .paralax-btn button{
+        position: absolute;
+        top: 410%;
+        left: 45%;
+    }
+}
+
+
+@media(max-width:1180px){
+    .parallax h2{
+        position: absolute;
+        top: 370%;
+        left: 25%;
+      
+    }    
+     .paralax-btn button{
+        position: absolute;
+        top: 410%;
+        left: 45%;
+    }
+}
+
+
+@media(max-width:1110px){
+    .parallax h2{
+        position: absolute;
+        top: 380%;
+        left: 25%;
+      
+    }    
+     .paralax-btn button{
+        position: absolute;
+        top: 420%;
+        left: 48%;
+    }
+}
+
+
+
+
+
+@media(max-width:900px){
+    .parallax h2{
+        /* position: absolute;
+        top: 480%;
+        left: 15%; */
+        display: none;
+      
+    }    
+     .paralax-btn button{
+        /* position: absolute;
+        top: 530%;
+        left: 38%; */
+        display: none;
+    }
+
+   
+}
+
+
+
+@media(max-width:600px){
+    .parallax h2{
+        display: none;
+      
+    }    
+     .paralax-btn button{
+        display: none;
+    }
+}
+
+
+
+
+
