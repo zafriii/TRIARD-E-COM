@@ -6,7 +6,7 @@ import FormatPrice from "../../Helper/FormatPrice";
 
 function FilterSection() {
 
-const  {filters: {text, category , price, maxPrice, minPrice} , updateFilterValue ,  all_products, filter_products} = useFilterContext();
+const  {filters: {text, category } , updateFilterValue ,  all_products, filter_products} = useFilterContext();
 
 const getUniqueData = (data, property) => {
 
