@@ -4,11 +4,7 @@
     
     height: 400px;
     width: 100%;
-    margin-top: 70px;
-    /* background-image: url("images/redbgl.png"); */
-    background-size:cover ;
-    background-repeat: no-repeat;
-    background-attachment: fixed;                 
+    margin-top: 70px;             
 }
 
 .parallax img{
@@ -47,10 +43,8 @@
     color: #D2122E;
     font-weight: 800;
     margin-left: -20px;
-    /* margin-top: 50px; */
     font-family:  'Poppins', sans-serif;
     cursor: pointer;
-    /* margin-left: 100px; */
     position: absolute;
     top: 390%;
     left: 45%;
@@ -150,21 +144,12 @@
 }
 
 
-
-
-
 @media(max-width:900px){
     .parallax h2{
-        /* position: absolute;
-        top: 480%;
-        left: 15%; */
         display: none;
       
     }    
      .paralax-btn button{
-        /* position: absolute;
-        top: 530%;
-        left: 38%; */
         display: none;
     }
 
