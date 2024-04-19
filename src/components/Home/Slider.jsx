@@ -21,12 +21,12 @@ function Slider() {
     useEffect(() => {
         const intervalId = setInterval(() => {
             nextSlide();
-        }, 3000); // Change the interval time (in milliseconds) as needed
+        }, 3000); 
 
         return () => {
-            clearInterval(intervalId); // Cleanup function to clear the interval on component unmount
+            clearInterval(intervalId); 
         };
-    }, [currentIndex]); // Run this effect whenever currentIndex changes
+    }, [currentIndex]); 
 
     return (
         <>
