@@ -96,28 +96,9 @@ const companyData = getUniqueData( all_products , "company");
                         </select>
 
                     </form>
-
-
-            {/* <div className="filter-price">
-
-                <h3>Price</h3> 
-                 <p> <FormatPrice price= {price} /> </p> 
-                  
-                <input
-                
-                type = 'range'
-                name = 'price'
-                min = {minPrice}
-                max = {maxPrice}
-                value = {price}
-                onChange={updateFilterValue}
-                
-                />   
-
-         </div> */}             
-
-
+           
          </div>
+      
          <div className="available">
            <h4>Availability</h4>
            <h4>In Stock : {filter_products.length} Gadgets</h4>
