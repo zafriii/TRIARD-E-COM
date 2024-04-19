@@ -32,7 +32,7 @@ function Bill() {
             road: '',
             phone: ''
         });
-        setBkashChecked(false); // Reset checkbox states
+        setBkashChecked(false); 
         setCreditCardChecked(false);
     };
 
