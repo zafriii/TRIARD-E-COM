@@ -122,27 +122,12 @@ switch(action.type){
             })
         }  
 
-       
-        // if (price === 0) {
-        //     tempFilterProduct = tempFilterProduct.filter(
-        //       (curElem) => curElem.price == price
-        //     );
-        //   } else {
-        //     tempFilterProduct = tempFilterProduct.filter(
-        //       (curElem) => curElem.price <= price
-        //     );
-        //   }
-
-
     
         return{
             ...state,
             filter_products: tempFilterProduct
         }
    
-
-
-
 
     default:
         return state;
