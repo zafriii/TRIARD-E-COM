@@ -32,24 +32,13 @@
 }
 
 .popular-container{
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
     margin-top: 50px;
     margin-bottom: 20px;
-    /* background-image: url("images/paralax.png");
-    background-size:cover ;
-    background-repeat: no-repeat;
-    background-attachment: fixed; */
     background-color:#F9F6EE ;
     border: 1px solid rgb(223, 211, 211);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    width: 50%;
-    
-
-       
+    width: 50%;       
 }
-
   
 .popular-image-container img {
     width: 100%;  
@@ -78,9 +67,7 @@
     transition: all 0.5s ease;
     display: none;
     transition: opacity 0.5s ease; 
-   
-    
-   
+     
   }
   
 .slide.active {
@@ -177,7 +164,6 @@
     font-size: 2em;
     text-align: center;
     margin-left: 50px;
-    /* background-color:rgb(155, 142, 68) ; */
   }
   
   @keyframes typing {
@@ -193,23 +179,6 @@
   }
 
 
-/* .popular-container {
-  background: linear-gradient(45deg, #FF5733, #FF0000, #8B0000, #FF5733);
-  background-size: 300% 300%;
-  animation: red-color 12s ease-in-out infinite;
-}
-
-@keyframes red-color {
-  0% {
-      background-position: 0 50%;
-  }
-  50% {
-      background-position: 100% 50%;
-  }
-  100% {
-      background-position: 0 50%;
-  }
-} */
 
 .popular-container {
   background: linear-gradient(45deg, #D2122E, #E32636, #BA0021, #C6011F, #960018,#8B0000, #FF0000 );
@@ -242,7 +211,6 @@
 }
 
 
-
 @media(max-width: 950px) {
   .popular-container{
     width: 100%;
@@ -263,7 +231,6 @@
 
 .popular-image-container img{
   max-height: 300px;
-  /* width: 300px; */
 }
 
 .newarr{
