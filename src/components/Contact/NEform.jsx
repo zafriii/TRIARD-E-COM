@@ -1,6 +1,5 @@
 import React from 'react'
 import { FaRegSmileBeam } from "react-icons/fa";
-import { useAuth0 } from "@auth0/auth0-react";
 import './contact.css'
 import { FaSquarePhoneFlip } from "react-icons/fa6";
 import { TfiEmail } from "react-icons/tfi";
@@ -8,7 +7,6 @@ import { FaLocationDot } from "react-icons/fa6";
 
 function NEform() {
 
-  const {user, isAuthenticated} = useAuth0();
 
   return (
     <>
@@ -61,7 +59,6 @@ function NEform() {
                             type="text"
                             placeholder="User Name"
                             name="username"
-                            // value={isAuthenticated ? user.name : ""}
                             required
                             autoComplete="off"
                             />
