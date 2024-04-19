@@ -13,11 +13,7 @@ const initialState = {
     filters: {
         text:"" ,
         category: "all",
-        company: "all", 
-        // price: 0,
-        // maxPrice : 6000000,
-        // minPrice : 30000
-        
+        company: "all",         
     }
     
 
