@@ -1,15 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&family=Poppins:ital,wght@0,100;0,200;0,300;1,100&display=swap');
 
 .container{
-    /* display: flex; */
-    
-    /* margin-top: 100px; */
     margin-top: 50px;
 }
 
 .hero-section-data{
     font-family: 'Oswald', sans-serif;
-    /* margin-left: 120px; */
     margin-top: -20px;
    
 }
@@ -22,25 +18,20 @@
  color:#D2122E;
  font-size: 40px; 
 
- /* margin-left: 100px; */
- /* -webkit-box-reflect: below 1px linear-gradient(to right, transparent, #fff); */
 }
 
 .hero-section-data h3{
     color: #D2122E;
     font-size: 40px;
-    /* margin-left: -850px; */
     margin-top: 40px;
 }
 
 
 .hero-section-image{
-    /* margin-left: 350px; */
     display: flex;
     align-items: center;
     justify-content: center;
     height: 500px;
-    /* background-color: rgb(236, 226, 226); */
     background-color: #F9F6EE;
     background-color: #d7edff;
     background-color: #e6f4ff;
@@ -49,10 +40,9 @@
 
 .hero-section-image img{
     height: 550px;
-    /* width:50%; */
     border-radius: 5px;
     margin-left: 10px;
-    /* border: 2px solid #1a2b47; */
+   
     
     
 }
@@ -69,7 +59,7 @@
     margin-top: 50px;
     font-family:  'Poppins', sans-serif;
     cursor: pointer;
-    /* margin-left: 100px; */
+    
 }
 
 .container button:hover{
@@ -116,28 +106,25 @@
 
 @keyframes neon-animation {
     0% {
-        border-color: #ff0000; /* Red color */
+        border-color: #ff0000;
         box-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000;
     }
     100% {
-        border-color: #ff3333; /* Light red color */
+        border-color: #ff3333; 
         box-shadow: 0 0 5px #ff3333, 0 0 15px #ff3333, 0 0 25px #ff3333;
     }
 }
 
 @keyframes neon-animation-reverse {
     0% {
-        border-color: #ff3333; /* Light red color */
+        border-color: #ff3333; 
         box-shadow: 0 0 5px #ff3333, 0 0 15px #ff3333, 0 0 25px #ff3333;
     }
     100% {
-        border-color: #ff0000; /* Red color */
+        border-color: #ff0000;
         box-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000;
     }
 }
-
- 
-
 
 #text-container {
     color:#999;
@@ -148,7 +135,6 @@
     width:100%;
     bottom:45%;
     display:block;
-    /* margin-top: 40px; */
     margin-top: -220px;
   }
   
@@ -196,11 +182,6 @@
   }
   
 
-
-
-
-
-
 @media (max-width:800px) {
 
     .container{
@@ -211,13 +192,11 @@
 
     .hero-section-image{
         margin-top: 40px; 
-        /* margin-left: 80px; */
         margin-left: 10px;
         
     }
 
     .hero-section-image{
-        /* margin-left: 350px; */
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -231,11 +210,6 @@
         width:300px;
         margin-top: 30px;
         margin-left: -4px;
-        /* margin-left: -50px; */
-    }
-
-    .hero-section-data h3{
-        /* margin-left: -120px; */
     }
 }
 
