@@ -22,17 +22,6 @@ function Bill() {
         }));
     };
 
-    // const handleSubmit = (e) => {
-    //     e.preventDefault();
-    //     setSubmittedData(prevData => [...prevData, formData]);
-    //     setFormData({
-    //         name: '',
-    //         city: '',
-    //         road: '',
-    //         phone: ''
-    //     });
-    // };
-
     const handleSubmit = (e) => {
         e.preventDefault();
         const formDataWithPayment = { ...formData, bkashChecked, creditCardChecked };
