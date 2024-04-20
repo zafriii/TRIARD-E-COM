@@ -6,7 +6,7 @@ import FormatPrice from "../../Helper/FormatPrice";
 
 function FilterSection() {
 
-const  {filters: {text, category } , updateFilterValue ,  all_products, filter_products} = useFilterContext();
+const  {filters: {text, category } , updateFilterValue ,  all_products, filter_products, clearFilters} = useFilterContext();
 
 const getUniqueData = (data, property) => {
 
@@ -102,6 +102,8 @@ const companyData = getUniqueData( all_products , "company");
          <div className="available">
            <h4>Availability</h4>
            <h4>In Stock : {filter_products.length} Gadgets</h4>
+
+            <button onClick={clearFilters} className="btn-clear-filters">Clear Filters</button>
          </div>
 
       </div>
