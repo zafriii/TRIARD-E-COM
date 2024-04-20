@@ -127,6 +127,17 @@ switch(action.type){
             ...state,
             filter_products: tempFilterProduct
         }
+
+
+        case "CLEAR_FILTERS":
+            return {
+                ...state,
+                filters: {
+                    text: "",
+                    category: "all",
+                    company: "all",
+                },
+            }
    
 
     default:
